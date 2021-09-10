@@ -1,0 +1,7 @@
+create database movie;
+
+CREATE USER 'mulesoft'@'localhost' IDENTIFIED BY 'mulesoft';
+
+GRANT ALL PRIVILEGES ON * . * TO 'mulesoft'@'localhost';
+
+
